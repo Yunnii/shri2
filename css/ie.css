@@ -1,0 +1,11 @@
+.even{
+    background: rgb(220, 220, 220);
+}
+
+.page {
+    width: auto;
+}
+
+table {
+    table-layout: fixed;
+}

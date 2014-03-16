@@ -2,8 +2,6 @@ table {
     overflow: hidden;
 
     margin: 50px 0;
-
-    border: 1px solid black;
 }
 
 table td,
@@ -12,22 +10,26 @@ table th {
     min-width: 90px;
     padding: 10px 5px;
 
-    border: 1px solid transparent;
+    border: 1px solid black;
+}
+
+tr.row {
+    background: #ded;
 }
 
 td:after,
-col:hover:after {
+col:after{
     position: relative;
     z-index: -2;
     top: -200px;
-    left: -5px;
+    left: -6px;
 
     display: block;
 
     width: 100%;
     height: 10000px;
     margin: 0 0 -10000px;
-    padding:0 5px;
+    padding:0 6px;
 
     content: '';
 }
@@ -40,7 +42,7 @@ tr:after {
 
     width: 1000px;
     height: 1000px;
-    margin: 0 0 -1000px -1000px;
+    margin: 0 0 -976px -1000px;
 
     content: '';
 }
@@ -51,15 +53,14 @@ tr:nth-child(odd):after
 }
 
 td:nth-child(even):after,
-tr:nth-child(even):after,
-tr.row:after{
+tr:nth-child(even):after{
     background: rgba(220, 220, 220, 0.3);
 }
 
 
 tr:hover,
 th:hover,
-col.hover:after {
+.hover {
     background: #d5bed6;
 }
 
