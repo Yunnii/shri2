@@ -1,0 +1,65 @@
+{
+    "tablo": [
+        {
+            "company": {
+                "name": "",
+                "image": ""
+            },
+            "time": "",
+            "flight": "",
+            "to": "",
+            "departure_time": "",
+            "arrival_time": "",
+            "status": ""
+        },
+        {
+            "company": {
+                "name": "",
+                "image": ""
+            },
+            "time": "",
+            "flight": "",
+            "to": "",
+            "departure_time": "",
+            "arrival_time": "",
+            "status": ""
+        },
+        {
+            "company": {
+                "name": "",
+                "image": ""
+            },
+            "flight": "",
+            "time": "",
+            "to": "",
+            "departure_time": "",
+            "arrival_time": "",
+            "status": ""
+        },
+        {
+            "company": {
+                "name": "",
+                "image": ""
+            },
+            "flight": "",
+            "time": "",
+            "to": "",
+            "departure_time": "",
+            "arrival_time": "",
+            "status": ""
+        },
+        {
+            "company": {
+                "name": "",
+                "image": ""
+            },
+            "flight": "",
+            "time": "",
+            "to": "",
+            "departure_time": "",
+            "arrival_time": "",
+            "status": ""
+
+        }
+    ]
+}

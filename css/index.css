@@ -1,0 +1,20 @@
+body{
+    font: 62.5% sans-serif, Arial;
+}
+
+img {
+    max-width: 200px;
+    max-height: 50px;
+}
+
+.page {
+    font-size: 1.5em;
+
+    width: 918px;
+    margin: auto;
+}
+
+.tablo {
+    padding: 0;
+    overflow: hidden;
+}
